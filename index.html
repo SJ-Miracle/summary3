@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanzhyrbekov Adilet Frontend Developer</title>
+    <link rel="icon" href="images/logo_logo.png" type="images/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/360b997995.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css/normalize.css" />
+    <link rel="stylesheet" href="./styles.css/style.css" />
+    <link rel="stylesheet" href="./styles.css/media.css" />
+  </head>
+  <body>
+    <!--===================================HEADER=======================================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Adilet' <span>Sanzhyrbekov</span> </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+<main class="main">
+     <!--===================================HOME=======================================-->
+     <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__data">
+              <h3 class="home__subtitle">Hello, <span>I'm</span></h3>
+              <h1 class="home__title">Sanzhyrbekov Adilet'</h1>
+              <h3 class="home__education">Front-end Developer</h3>
+              <p class="home__description">
+                With knowledge in web development and design, I offer the best
+                projects resulting in quality work.
+              </p>
+              <a href="#" class="button">Let's Talk</a>
+            </div>
+            <div class="home__social">
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="fa-brands fa-dribbble"></i>
+              </a>
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+        </div>
+            <div class="home__image">           
+                <svg xmlns="http://www.w3.org/2000/svg" width="476" height="500" class="circle" viewBox="0 0 512 512">
+                    <mask id="maskCircle" mask-type="alpha">
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                    </mask>
+                    <g mask="url(#maskCircle)">
+                        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
+                    </g>
+                        <image class="home__img" mask="url(#maskCircle)" id="imageBlob" width="95%" height="120%" xlink:href="./images/myphoto.png">
+                 </svg>
+           </div>
+          </div>
+      </section>
+      <!--===================================ABOUT=======================================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="section__subtitle">My <span>Intro</span></h3>
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">
+              Frontend developer, I create web pages with UI / UX user
+              interface, I have years of experience and many clients are happy
+              with the projects carried out.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+          <div class="about__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="about__svg">
+                <mask id="maskCircle" mask-type="alpha">
+                    <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/>
+                </mask>
+                <g mask="url(#maskCircle)">
+                    <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+                </g>
+                    <image class="home__img" mask="url(#maskCircle)" id="imageBlob"  width="95%" height="120%" xlink:href="./images/myphoto.png">
+             </svg>
+          </div>
+        </div>
+      </section>
+       <!--===================================SKILLS=======================================-->
+       <section class="skills section" id="skills">
+        <div class="skills__container container grid">
+          <div class="skills__data">
+            <h3 class="section__subtitle">Favorite <span>Skills</span></h3>
+            <h2 class="section__title">My Skills</h2>
+            <p class="skills__description">
+              See fully what skills I have and perform, to develop the project
+              for you.
+            </p>
+            <a href="#projects" class="button">See Projects</a>
+          </div>
+          <div class="skills__content">
+            <ol class="skills__group">
+              <li class="skills__item">HTML & CSS</li>
+              <li class="skills__item">JavaScript</li>
+              <li class="skills__item">Bootstrap</li>
+              <li class="skills__item">Git & Github</li>
+            </ol>
+            <ol class="skills__group" start="5">
+              <li class="skills__item">Figma</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!--===================================SERVICES=======================================-->
+      <section class="services section" id="services">
+        <h3 class="section__subtitle">My <span> Services </span></h3>
+        <h2 class="section__title">What I Do</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="fa-solid fa-laptop services__icon"></i>
+            <h2 class="services__title">Web Developer</h2>
+            <p class="services__description">
+              Development of custom web pages. Using current technologies and
+              libraries of the labor field.
+            </p>
+          </article>
+          <article class="services__card">
+            <i class="fa-solid fa-swatchbook services__icon"></i>
+            <h2 class="services__title">UI/UX Designer</h2>
+            <p class="services__description">
+              I offer design of web interfaces and mobile applications, design
+              made in figma, adobe xd and sketch.
+            </p>
+          </article>
+          <article class="services__card">
+            <i class="fa-solid fa-pen-nib services__icon"></i>
+            <h2 class="services__title">Graphic Design</h2>
+            <p class="services__description">
+              I make design at the client's request, banner design, posters,
+              digital designs among others.
+            </p>
+          </article>
+        </div>
+      </section>
+          <!--===================================PROJECTS=======================================-->
+      <section class="projects section" id="projects">
+        <h3 class="section__subtitle">
+            My <span>Jobs</span>
+        </h3>
+        <h2 class="section__title">
+            Recent Projects
+        </h2>
+        <div class="projects__container container grid">
+
+            <article class="projects__card">
+                <img src="./images/modern style.png" alt="modern style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">Modern website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="./images/hip-hop style.png" alt="hip-hop style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">Hip-Hop style website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="./images/lofi style.png" alt="lo-fi style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">Lo-Fi style website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="./images/cyberpunk style.png" alt="cyberpunk style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">Cyberpunk website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="./images/national geo.png" alt="national geographic style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">National Geographic website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="projects__card">
+                <img src="./images/retro style.png" alt="retro style website" class="projects__img">
+                <div class="projects__modal">
+                    <span class="projects__subtitle">Web</span>
+                    <h2 class="projects__title">Retro style website</h2>
+                    <a href="#" class="projects__button">
+                        View Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+      </section>
+          <!--===================================СONTACT=======================================-->
+      <section class="contact section" id="contact">
+        <h3 class="section__subtitle">
+            Get In <span>Touch</span>
+        </h3>
+        <h2 class="section__title">
+            Contact Me
+        </h2>
+        <div class="contact__container container grid">
+            <form action="" class="contact__form" id="contact-form">
+                <div class="contact__group">
+                    <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
+                    <input type="email" name="user__email" required placeholder="Enter your email" class="contact__input">
+                </div>
+
+                <textarea name="user__project" required placeholder="Enter your message" class="contact__input"></textarea>
+                <p class="contact__message" id="contact-message"></p>
+                <button type="submit" class="button contact__button">
+                    Send Message
+                </button>
+            </form>
+        </div>
+      </section>
+    </main>
+    <!--===================================FOOTER=======================================-->
+    <footer class="footer">
+        <div class="footer__container grid">
+            <div>
+                <h1 class="footer__title">
+                  Sanzhyrbekov <span>Adilet'</span>
+                </h1>
+                <h2 class="footer__education">
+                    Front-end Developer
+                </h2>
+            </div>
+            <div class="footer__social">
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169 Sanzhyrbekov Adilet'
+            </span>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./scripts.js/script.js"></script>
+  </body>
+</html>
